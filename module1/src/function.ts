@@ -1,3 +1,4 @@
+{
 // function
 
 function great(name:string):string{
@@ -15,4 +16,11 @@ function great2(name:string = 'niloy'):string{
 function logMessage(message: string): void {
     console.log(message);
   }
-  
+
+// array function
+  const arr:number[] = [2,5,7];
+
+  const arrayNumber:number[] = arr.map((elem:number):number=> elem * elem)
+
+
+}
